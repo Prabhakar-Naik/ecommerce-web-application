@@ -1,4 +1,4 @@
-package com.springboot.ecommerce.security.jwt;
+package com.springboot.ecommerce.auth2.o.security.jwt;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.servlet.ServletException;

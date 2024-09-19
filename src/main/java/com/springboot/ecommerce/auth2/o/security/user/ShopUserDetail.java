@@ -1,6 +1,6 @@
-package com.springboot.ecommerce.security.user;
+package com.springboot.ecommerce.auth2.o.security.user;
 
-import com.springboot.ecommerce.models.User;
+import com.springboot.ecommerce.users.model.User;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

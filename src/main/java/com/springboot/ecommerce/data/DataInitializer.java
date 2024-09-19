@@ -1,9 +1,9 @@
 package com.springboot.ecommerce.data;
 
 import com.springboot.ecommerce.models.Role;
-import com.springboot.ecommerce.models.User;
+import com.springboot.ecommerce.users.model.User;
 import com.springboot.ecommerce.repository.RoleRepository;
-import com.springboot.ecommerce.repository.UserRepository;
+import com.springboot.ecommerce.users.repository.UserRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.ApplicationListener;

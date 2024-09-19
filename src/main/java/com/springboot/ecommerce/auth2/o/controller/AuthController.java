@@ -1,13 +1,12 @@
-package com.springboot.ecommerce.controller;
+package com.springboot.ecommerce.auth2.o.controller;
 
 import com.springboot.ecommerce.request.LoginRequest;
 import com.springboot.ecommerce.response.ApiResponse;
 import com.springboot.ecommerce.response.JwtResponse;
-import com.springboot.ecommerce.security.jwt.JwtUtils;
-import com.springboot.ecommerce.security.user.ShopUserDetail;
+import com.springboot.ecommerce.auth2.o.security.jwt.JwtUtils;
+import com.springboot.ecommerce.auth2.o.security.user.ShopUserDetail;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
-import org.apache.coyote.Response;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;

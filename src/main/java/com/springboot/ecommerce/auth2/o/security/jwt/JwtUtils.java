@@ -1,6 +1,6 @@
-package com.springboot.ecommerce.security.jwt;
+package com.springboot.ecommerce.auth2.o.security.jwt;
 
-import com.springboot.ecommerce.security.user.ShopUserDetail;
+import com.springboot.ecommerce.auth2.o.security.user.ShopUserDetail;
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;

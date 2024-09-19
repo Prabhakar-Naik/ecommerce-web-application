@@ -1,6 +1,6 @@
-package com.springboot.ecommerce.repository;
+package com.springboot.ecommerce.users.repository;
 
-import com.springboot.ecommerce.models.User;
+import com.springboot.ecommerce.users.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

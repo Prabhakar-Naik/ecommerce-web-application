@@ -1,6 +1,6 @@
-package com.springboot.ecommerce.security.jwt;
+package com.springboot.ecommerce.auth2.o.security.jwt;
 
-import com.springboot.ecommerce.security.user.ShopUserDetailService;
+import com.springboot.ecommerce.auth2.o.security.user.ShopUserDetailService;
 import io.jsonwebtoken.JwtException;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
