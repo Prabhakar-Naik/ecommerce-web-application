@@ -1,7 +1,7 @@
-package com.springboot.ecommerce.service.user;
+package com.springboot.ecommerce.users.service;
 
 import com.springboot.ecommerce.dto.UserDto;
-import com.springboot.ecommerce.models.User;
+import com.springboot.ecommerce.users.model.User;
 import com.springboot.ecommerce.request.CreateUserRequest;
 import com.springboot.ecommerce.request.UpdateUserRequest;
 

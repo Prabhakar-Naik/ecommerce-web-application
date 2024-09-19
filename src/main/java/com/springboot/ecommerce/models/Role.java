@@ -1,5 +1,6 @@
 package com.springboot.ecommerce.models;
 
+import com.springboot.ecommerce.users.model.User;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

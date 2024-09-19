@@ -1,12 +1,12 @@
-package com.springboot.ecommerce.service.user;
+package com.springboot.ecommerce.users.service;
 
 import com.springboot.ecommerce.dto.UserDto;
 import com.springboot.ecommerce.exceptions.AlreadyExistException;
 import com.springboot.ecommerce.exceptions.ResourceNotFoundException;
 import com.springboot.ecommerce.models.Role;
-import com.springboot.ecommerce.models.User;
+import com.springboot.ecommerce.users.model.User;
 import com.springboot.ecommerce.repository.RoleRepository;
-import com.springboot.ecommerce.repository.UserRepository;
+import com.springboot.ecommerce.users.repository.UserRepository;
 import com.springboot.ecommerce.request.CreateUserRequest;
 import com.springboot.ecommerce.request.UpdateUserRequest;
 import lombok.AllArgsConstructor;
@@ -16,7 +16,6 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 

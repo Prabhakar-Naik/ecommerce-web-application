@@ -1,7 +1,7 @@
-package com.springboot.ecommerce.security.user;
+package com.springboot.ecommerce.auth2.o.security.user;
 
-import com.springboot.ecommerce.models.User;
-import com.springboot.ecommerce.repository.UserRepository;
+import com.springboot.ecommerce.users.model.User;
+import com.springboot.ecommerce.users.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

@@ -1,13 +1,13 @@
-package com.springboot.ecommerce.controller;
+package com.springboot.ecommerce.users.controller;
 
 import com.springboot.ecommerce.dto.UserDto;
 import com.springboot.ecommerce.exceptions.AlreadyExistException;
 import com.springboot.ecommerce.exceptions.ResourceNotFoundException;
-import com.springboot.ecommerce.models.User;
+import com.springboot.ecommerce.users.model.User;
 import com.springboot.ecommerce.request.CreateUserRequest;
 import com.springboot.ecommerce.request.UpdateUserRequest;
 import com.springboot.ecommerce.response.ApiResponse;
-import com.springboot.ecommerce.service.user.UserService;
+import com.springboot.ecommerce.users.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

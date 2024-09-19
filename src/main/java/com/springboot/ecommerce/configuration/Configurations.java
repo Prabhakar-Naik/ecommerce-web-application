@@ -1,9 +1,8 @@
-package com.springboot.ecommerce.security.config;
+package com.springboot.ecommerce.configuration;
 
-import com.springboot.ecommerce.security.jwt.AuthTokenFilter;
-import com.springboot.ecommerce.security.jwt.JwtAuthEntryPoint;
-import com.springboot.ecommerce.security.user.ShopUserDetailService;
-import lombok.NonNull;
+import com.springboot.ecommerce.auth2.o.security.jwt.AuthTokenFilter;
+import com.springboot.ecommerce.auth2.o.security.jwt.JwtAuthEntryPoint;
+import com.springboot.ecommerce.auth2.o.security.user.ShopUserDetailService;
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -19,8 +18,6 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
-import org.springframework.web.servlet.config.annotation.CorsRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import java.util.List;
 
