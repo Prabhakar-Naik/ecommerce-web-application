@@ -4,6 +4,8 @@ import com.springboot.ecommerce.dto.ImageDto;
 import com.springboot.ecommerce.dto.ProductDto;
 import com.springboot.ecommerce.exceptions.AlreadyExistException;
 import com.springboot.ecommerce.exceptions.ProductNotFoundException;
+import com.springboot.ecommerce.images.model.Images;
+import com.springboot.ecommerce.images.repository.ImagesRepository;
 import com.springboot.ecommerce.models.*;
 import com.springboot.ecommerce.repository.*;
 import com.springboot.ecommerce.request.AddProductRequest;

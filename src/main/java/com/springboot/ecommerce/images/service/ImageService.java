@@ -1,7 +1,7 @@
-package com.springboot.ecommerce.service.image;
+package com.springboot.ecommerce.images.service;
 
 import com.springboot.ecommerce.dto.ImageDto;
-import com.springboot.ecommerce.models.Images;
+import com.springboot.ecommerce.images.model.Images;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;

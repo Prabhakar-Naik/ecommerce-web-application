@@ -1,7 +1,7 @@
 package com.springboot.ecommerce.request;
 
 import com.springboot.ecommerce.models.Category;
-import com.springboot.ecommerce.models.Images;
+import com.springboot.ecommerce.images.model.Images;
 import lombok.Data;
 
 import java.math.BigDecimal;

@@ -1,6 +1,6 @@
-package com.springboot.ecommerce.repository;
+package com.springboot.ecommerce.images.repository;
 
-import com.springboot.ecommerce.models.Images;
+import com.springboot.ecommerce.images.model.Images;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
