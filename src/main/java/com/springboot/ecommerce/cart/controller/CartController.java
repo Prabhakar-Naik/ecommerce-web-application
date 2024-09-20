@@ -1,4 +1,4 @@
-package com.springboot.ecommerce.controller;
+package com.springboot.ecommerce.cart.controller;
 
 import com.springboot.ecommerce.dto.CartDto;
 import com.springboot.ecommerce.exceptions.ResourceNotFoundException;

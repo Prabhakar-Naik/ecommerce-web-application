@@ -1,4 +1,4 @@
-package com.springboot.ecommerce.models;
+package com.springboot.ecommerce.users.model;
 
 import com.springboot.ecommerce.users.model.User;
 import jakarta.persistence.*;

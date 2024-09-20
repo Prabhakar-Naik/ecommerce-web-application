@@ -1,10 +1,10 @@
-package com.springboot.ecommerce.controller;
+package com.springboot.ecommerce.images.controller;
 
 import com.springboot.ecommerce.dto.ImageDto;
 import com.springboot.ecommerce.exceptions.ResourceNotFoundException;
-import com.springboot.ecommerce.models.Images;
+import com.springboot.ecommerce.images.model.Images;
 import com.springboot.ecommerce.response.ApiResponse;
-import com.springboot.ecommerce.service.image.ImageService;
+import com.springboot.ecommerce.images.service.ImageService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.io.ByteArrayResource;
 import org.springframework.core.io.Resource;

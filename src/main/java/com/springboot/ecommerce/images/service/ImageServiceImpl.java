@@ -1,10 +1,10 @@
-package com.springboot.ecommerce.service.image;
+package com.springboot.ecommerce.images.service;
 
 import com.springboot.ecommerce.dto.ImageDto;
 import com.springboot.ecommerce.exceptions.ResourceNotFoundException;
-import com.springboot.ecommerce.models.Images;
+import com.springboot.ecommerce.images.model.Images;
 import com.springboot.ecommerce.models.Product;
-import com.springboot.ecommerce.repository.ImagesRepository;
+import com.springboot.ecommerce.images.repository.ImagesRepository;
 import com.springboot.ecommerce.service.product.ProductServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
