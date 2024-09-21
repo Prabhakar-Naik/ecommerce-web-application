@@ -146,7 +146,6 @@ public class ProductServiceImpl implements ProductService{
         existingProduct.setInventory(request.getInventory());
         existingProduct.setDescription(request.getDescription());
         Category category = this.categoryRepository.findByName(request.getCategory().getName());
-
         existingProduct.setCategory(category);
         return existingProduct;
     }
