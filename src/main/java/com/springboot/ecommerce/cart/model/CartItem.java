@@ -1,6 +1,8 @@
-package com.springboot.ecommerce.models;
+package com.springboot.ecommerce.cart.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.springboot.ecommerce.cart.model.Cart;
+import com.springboot.ecommerce.models.Product;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

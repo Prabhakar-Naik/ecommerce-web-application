@@ -1,11 +1,11 @@
-package com.springboot.ecommerce.service.cart;
+package com.springboot.ecommerce.cart.service;
 
 import com.springboot.ecommerce.exceptions.ResourceNotFoundException;
-import com.springboot.ecommerce.models.Cart;
-import com.springboot.ecommerce.models.CartItem;
+import com.springboot.ecommerce.cart.model.Cart;
+import com.springboot.ecommerce.cart.model.CartItem;
 import com.springboot.ecommerce.models.Product;
-import com.springboot.ecommerce.repository.CartItemRepository;
-import com.springboot.ecommerce.repository.CartRepository;
+import com.springboot.ecommerce.cart.repository.CartItemRepository;
+import com.springboot.ecommerce.cart.repository.CartRepository;
 import com.springboot.ecommerce.service.product.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

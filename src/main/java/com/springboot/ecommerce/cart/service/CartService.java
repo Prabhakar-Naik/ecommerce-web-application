@@ -1,7 +1,7 @@
-package com.springboot.ecommerce.service.cart;
+package com.springboot.ecommerce.cart.service;
 
 import com.springboot.ecommerce.dto.CartDto;
-import com.springboot.ecommerce.models.Cart;
+import com.springboot.ecommerce.cart.model.Cart;
 import com.springboot.ecommerce.users.model.User;
 
 import java.math.BigDecimal;

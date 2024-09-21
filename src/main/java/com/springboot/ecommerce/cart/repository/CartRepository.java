@@ -1,6 +1,6 @@
-package com.springboot.ecommerce.repository;
+package com.springboot.ecommerce.cart.repository;
 
-import com.springboot.ecommerce.models.Cart;
+import com.springboot.ecommerce.cart.model.Cart;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

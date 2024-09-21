@@ -1,5 +1,7 @@
 package com.springboot.ecommerce.service.product;
 
+import com.springboot.ecommerce.cart.model.CartItem;
+import com.springboot.ecommerce.cart.repository.CartItemRepository;
 import com.springboot.ecommerce.dto.ImageDto;
 import com.springboot.ecommerce.dto.ProductDto;
 import com.springboot.ecommerce.exceptions.AlreadyExistException;
@@ -144,7 +146,6 @@ public class ProductServiceImpl implements ProductService{
         existingProduct.setInventory(request.getInventory());
         existingProduct.setDescription(request.getDescription());
         Category category = this.categoryRepository.findByName(request.getCategory().getName());
-
         existingProduct.setCategory(category);
         return existingProduct;
     }

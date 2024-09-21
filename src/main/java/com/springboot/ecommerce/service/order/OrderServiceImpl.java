@@ -2,13 +2,13 @@ package com.springboot.ecommerce.service.order;
 
 import com.springboot.ecommerce.dto.OrderDto;
 import com.springboot.ecommerce.enums.OrderStatus;
-import com.springboot.ecommerce.models.Cart;
+import com.springboot.ecommerce.cart.model.Cart;
 import com.springboot.ecommerce.models.Order;
 import com.springboot.ecommerce.models.OrderItem;
 import com.springboot.ecommerce.models.Product;
 import com.springboot.ecommerce.repository.OrderRepository;
 import com.springboot.ecommerce.repository.ProductRepository;
-import com.springboot.ecommerce.service.cart.CartService;
+import com.springboot.ecommerce.cart.service.CartService;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;

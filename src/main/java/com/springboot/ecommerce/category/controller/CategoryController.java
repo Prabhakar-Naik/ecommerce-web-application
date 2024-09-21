@@ -1,4 +1,4 @@
-package com.springboot.ecommerce.controller;
+package com.springboot.ecommerce.category.controller;
 
 import com.springboot.ecommerce.exceptions.AlreadyExistException;
 import com.springboot.ecommerce.exceptions.ResourceNotFoundException;
