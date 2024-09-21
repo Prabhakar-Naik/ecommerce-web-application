@@ -1,6 +1,6 @@
-package com.springboot.ecommerce.service.cart;
+package com.springboot.ecommerce.cart.service;
 
-import com.springboot.ecommerce.models.CartItem;
+import com.springboot.ecommerce.cart.model.CartItem;
 
 /**
  * @author prabhakar, @Date 09-09-2024

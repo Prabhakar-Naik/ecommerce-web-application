@@ -1,11 +1,11 @@
-package com.springboot.ecommerce.controller;
+package com.springboot.ecommerce.cart.controller;
 
 import com.springboot.ecommerce.exceptions.ResourceNotFoundException;
-import com.springboot.ecommerce.models.Cart;
+import com.springboot.ecommerce.cart.model.Cart;
 import com.springboot.ecommerce.users.model.User;
 import com.springboot.ecommerce.response.ApiResponse;
-import com.springboot.ecommerce.service.cart.CartItemService;
-import com.springboot.ecommerce.service.cart.CartService;
+import com.springboot.ecommerce.cart.service.CartItemService;
+import com.springboot.ecommerce.cart.service.CartService;
 import com.springboot.ecommerce.users.service.UserService;
 import io.jsonwebtoken.JwtException;
 import org.springframework.beans.factory.annotation.Autowired;

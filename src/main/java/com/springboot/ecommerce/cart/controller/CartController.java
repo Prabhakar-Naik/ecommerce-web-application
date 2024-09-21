@@ -2,9 +2,9 @@ package com.springboot.ecommerce.cart.controller;
 
 import com.springboot.ecommerce.dto.CartDto;
 import com.springboot.ecommerce.exceptions.ResourceNotFoundException;
-import com.springboot.ecommerce.models.Cart;
+import com.springboot.ecommerce.cart.model.Cart;
 import com.springboot.ecommerce.response.ApiResponse;
-import com.springboot.ecommerce.service.cart.CartService;
+import com.springboot.ecommerce.cart.service.CartService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
