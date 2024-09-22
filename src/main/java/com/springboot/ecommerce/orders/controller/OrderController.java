@@ -1,4 +1,4 @@
-package com.springboot.ecommerce.controller;
+package com.springboot.ecommerce.orders.controller;
 
 import com.springboot.ecommerce.dto.OrderDto;
 import com.springboot.ecommerce.exceptions.ResourceNotFoundException;

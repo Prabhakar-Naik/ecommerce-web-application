@@ -1,4 +1,4 @@
-package com.springboot.ecommerce.models;
+package com.springboot.ecommerce.products.model;
 
 import com.springboot.ecommerce.category.model.Category;
 import com.springboot.ecommerce.images.model.Images;

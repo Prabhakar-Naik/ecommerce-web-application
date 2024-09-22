@@ -1,17 +1,16 @@
-package com.springboot.ecommerce.controller;
+package com.springboot.ecommerce.products.controller;
 
 import com.springboot.ecommerce.dto.ProductDto;
 import com.springboot.ecommerce.exceptions.AlreadyExistException;
 import com.springboot.ecommerce.exceptions.ProductNotFoundException;
 import com.springboot.ecommerce.exceptions.ResourceNotFoundException;
-import com.springboot.ecommerce.models.Product;
+import com.springboot.ecommerce.products.model.Product;
 import com.springboot.ecommerce.request.AddProductRequest;
 import com.springboot.ecommerce.request.ProductUpdateRequest;
 import com.springboot.ecommerce.response.ApiResponse;
-import com.springboot.ecommerce.service.product.ProductService;
+import com.springboot.ecommerce.products.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
