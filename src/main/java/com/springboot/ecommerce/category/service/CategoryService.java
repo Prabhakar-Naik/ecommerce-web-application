@@ -1,6 +1,6 @@
-package com.springboot.ecommerce.service.category;
+package com.springboot.ecommerce.category.service;
 
-import com.springboot.ecommerce.models.Category;
+import com.springboot.ecommerce.category.model.Category;
 
 import java.util.List;
 

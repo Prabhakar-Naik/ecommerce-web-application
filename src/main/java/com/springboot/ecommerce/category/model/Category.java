@@ -1,6 +1,7 @@
-package com.springboot.ecommerce.models;
+package com.springboot.ecommerce.category.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.springboot.ecommerce.models.Product;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

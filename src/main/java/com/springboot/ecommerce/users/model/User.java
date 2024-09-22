@@ -1,7 +1,7 @@
 package com.springboot.ecommerce.users.model;
 
 import com.springboot.ecommerce.cart.model.Cart;
-import com.springboot.ecommerce.models.Order;
+import com.springboot.ecommerce.orders.model.Order;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

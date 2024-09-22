@@ -1,6 +1,6 @@
 package com.springboot.ecommerce.request;
 
-import com.springboot.ecommerce.models.Category;
+import com.springboot.ecommerce.category.model.Category;
 import lombok.Data;
 
 import java.math.BigDecimal;

@@ -1,6 +1,6 @@
-package com.springboot.ecommerce.repository;
+package com.springboot.ecommerce.orders.repository;
 
-import com.springboot.ecommerce.models.OrderItem;
+import com.springboot.ecommerce.orders.model.OrderItem;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
