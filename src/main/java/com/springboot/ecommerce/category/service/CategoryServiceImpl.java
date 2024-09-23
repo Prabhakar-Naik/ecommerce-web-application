@@ -1,9 +1,9 @@
-package com.springboot.ecommerce.service.category;
+package com.springboot.ecommerce.category.service;
 
 import com.springboot.ecommerce.exceptions.AlreadyExistException;
 import com.springboot.ecommerce.exceptions.ResourceNotFoundException;
-import com.springboot.ecommerce.models.Category;
-import com.springboot.ecommerce.repository.CategoryRepository;
+import com.springboot.ecommerce.category.model.Category;
+import com.springboot.ecommerce.category.repository.CategoryRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

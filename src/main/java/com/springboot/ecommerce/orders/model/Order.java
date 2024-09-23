@@ -1,4 +1,4 @@
-package com.springboot.ecommerce.models;
+package com.springboot.ecommerce.orders.model;
 
 import com.springboot.ecommerce.enums.OrderStatus;
 import com.springboot.ecommerce.users.model.User;

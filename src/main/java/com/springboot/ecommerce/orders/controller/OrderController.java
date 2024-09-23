@@ -1,10 +1,10 @@
-package com.springboot.ecommerce.controller;
+package com.springboot.ecommerce.orders.controller;
 
 import com.springboot.ecommerce.dto.OrderDto;
 import com.springboot.ecommerce.exceptions.ResourceNotFoundException;
-import com.springboot.ecommerce.models.Order;
+import com.springboot.ecommerce.orders.model.Order;
 import com.springboot.ecommerce.response.ApiResponse;
-import com.springboot.ecommerce.service.order.OrderService;
+import com.springboot.ecommerce.orders.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

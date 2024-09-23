@@ -2,10 +2,10 @@ package com.springboot.ecommerce.category.controller;
 
 import com.springboot.ecommerce.exceptions.AlreadyExistException;
 import com.springboot.ecommerce.exceptions.ResourceNotFoundException;
-import com.springboot.ecommerce.models.Category;
+import com.springboot.ecommerce.category.model.Category;
 import com.springboot.ecommerce.response.ApiResponse;
-import com.springboot.ecommerce.service.category.CategoryService;
-import com.springboot.ecommerce.service.category.CategoryServiceImpl;
+import com.springboot.ecommerce.category.service.CategoryService;
+import com.springboot.ecommerce.category.service.CategoryServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

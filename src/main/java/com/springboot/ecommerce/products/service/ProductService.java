@@ -1,8 +1,8 @@
-package com.springboot.ecommerce.service.product;
+package com.springboot.ecommerce.products.service;
 
 import com.springboot.ecommerce.dto.ProductDto;
 import com.springboot.ecommerce.exceptions.AlreadyExistException;
-import com.springboot.ecommerce.models.Product;
+import com.springboot.ecommerce.products.model.Product;
 import com.springboot.ecommerce.request.AddProductRequest;
 import com.springboot.ecommerce.request.ProductUpdateRequest;
 

@@ -1,6 +1,6 @@
-package com.springboot.ecommerce.repository;
+package com.springboot.ecommerce.products.repository;
 
-import com.springboot.ecommerce.models.Product;
+import com.springboot.ecommerce.products.model.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

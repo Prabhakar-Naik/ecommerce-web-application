@@ -1,15 +1,20 @@
-package com.springboot.ecommerce.service.product;
+package com.springboot.ecommerce.products.service;
 
 import com.springboot.ecommerce.cart.model.CartItem;
 import com.springboot.ecommerce.cart.repository.CartItemRepository;
+import com.springboot.ecommerce.category.model.Category;
+import com.springboot.ecommerce.category.repository.CategoryRepository;
 import com.springboot.ecommerce.dto.ImageDto;
 import com.springboot.ecommerce.dto.ProductDto;
 import com.springboot.ecommerce.exceptions.AlreadyExistException;
 import com.springboot.ecommerce.exceptions.ProductNotFoundException;
 import com.springboot.ecommerce.images.model.Images;
 import com.springboot.ecommerce.images.repository.ImagesRepository;
-import com.springboot.ecommerce.models.*;
-import com.springboot.ecommerce.repository.*;
+import com.springboot.ecommerce.orders.model.OrderItem;
+import com.springboot.ecommerce.orders.repository.OrderItemRepository;
+import com.springboot.ecommerce.orders.repository.OrderRepository;
+import com.springboot.ecommerce.products.model.Product;
+import com.springboot.ecommerce.products.repository.ProductRepository;
 import com.springboot.ecommerce.request.AddProductRequest;
 import com.springboot.ecommerce.request.ProductUpdateRequest;
 import jakarta.persistence.EntityNotFoundException;

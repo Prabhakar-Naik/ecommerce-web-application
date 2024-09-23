@@ -1,6 +1,6 @@
 package com.springboot.ecommerce.request;
 
-import com.springboot.ecommerce.models.Category;
+import com.springboot.ecommerce.category.model.Category;
 import com.springboot.ecommerce.images.model.Images;
 import lombok.Data;
 

@@ -1,7 +1,7 @@
-package com.springboot.ecommerce.service.order;
+package com.springboot.ecommerce.orders.service;
 
 import com.springboot.ecommerce.dto.OrderDto;
-import com.springboot.ecommerce.models.Order;
+import com.springboot.ecommerce.orders.model.Order;
 
 import java.util.List;
 
