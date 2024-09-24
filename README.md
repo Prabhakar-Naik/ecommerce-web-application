@@ -18,7 +18,7 @@ Backend: Spring Boot, Spring Data JPA, Spring Security, JWT
 Database: SQL (e.g., MySQL, PostgreSQL)
 
 Usage
-Access the application: Open your web browser and navigate to http://localhost:8080 (or the specified port).
+Access the application: Open your web browser and navigate to http://localhost:9193 (or the specified port).
 Register or login: Create a new user account or log in with existing credentials.
 Browse products: Explore the product catalog and add items to your shopping cart.
 
